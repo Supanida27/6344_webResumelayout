@@ -1,0 +1,39 @@
+main{
+    background-color:pink;
+    height: 400px
+}
+header{
+    background-color:peachpuff;
+    overflow: hidden;
+}
+#menu{
+     background-color: antiquewhite;
+     width: 350px;
+     float: right;
+
+}
+#logo{
+    background-color: rgb(241, 192, 133);
+    width: 50px;
+    float: left;
+}
+#slide{
+    background-color: rgb(247, 94, 145);
+    height: 100px;
+}
+#content{
+    background-color:rgb(205, 192, 196);
+    height: 100px;
+}
+.subcontent{
+    background-color: rgb(244, 169, 244);
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+}
+li{
+    float: left;
+    margin: 5px;
+}
