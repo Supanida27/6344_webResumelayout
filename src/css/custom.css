@@ -1,32 +1,53 @@
 main{
     background-color:pink;
-    height: 400px
+    height: 900px;
+    width: 1000px;
+
+    margin-left: auto;
+    margin-right: auto;
+    
+
+    
 }
 header{
     background-color:peachpuff;
     overflow: hidden;
+
+}
+body{
+    background-image: linear-gradient(to bottom, #fbb4dc, #fab4e4, #f7b5ed, #f3b6f6, #edb8ff);
 }
 #menu{
-     background-color: antiquewhite;
+     /*background-color: rgb(241, 192, 133);*/
      width: 350px;
      float: right;
 
 }
 #logo{
-    background-color: rgb(241, 192, 133);
+    /*background-color: rgb(241, 192, 133);*/
     width: 50px;
     float: left;
+    border-radius: 50px;
+    
 }
 #slide{
     background-color: rgb(247, 94, 145);
-    height: 100px;
+    overflow: hidden;
 }
 #content{
     background-color:rgb(205, 192, 196);
-    height: 100px;
+    margin-left: 20px;
+    margin-right: auto;
 }
 .subcontent{
-    background-color: rgb(244, 169, 244);
+    background-color: rgb(255, 134, 255);
+    float: left;
+    margin: 12px;
+    width: 280px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px 1px #f83cdc;
+    padding: 5px;
 }
 ul{
     list-style-type: none;
